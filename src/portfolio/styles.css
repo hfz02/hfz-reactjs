@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+
+* {
+	padding: 0;
+	margin: 0;
+	font-family: 'Quicksand', sans-serif;
+}
+
+/* Container - Row 1 */
+.row-1 {
+	padding-top: 20px;
+	padding-bottom: 80px;
+	background-color: #11E5EE;
+}
+
+.row-1 h2 {
+	font-size: 49px;
+	font-weight: bold;
+}
+
+.row-1 h1 {
+	font-size: 52px;
+	font-weight: 900;
+}
+
+.row-1 .lead {
+	text-align: left;
+	margin-top: 30px;
+}
+
+.row-1 .button /* container button */ {
+	margin-top: 50px;
+}
+
+.row-1 .btn {
+	padding: 15px 100px;
+	font-weight: bold;
+	letter-spacing: 1.2px;
+}
+
+
+/* Container - Row 2 */
+
+.row-2 {
+	background-color: #B7F7FA;
+	padding: 20px 0;
+	padding-top: 60px;
+	margin: 0 auto;
+	padding-bottom: 100px;
+}
+
+.row-2 h2 {
+	text-align: center;
+	padding: 30px;
+	font-size: 48px;
+	margin-bottom: 20px;
+}
+
+.skills {
+	display: flex;
+ 	justify-content: space-around;
+ 	max-width: 800px;
+ 	margin: 0 auto;
+ 	padding: 2em 0;
+}
+
+.skill-1,
+.skill-2,
+.skill-3,
+.skill-4,
+.skill-5,
+.skill-6,
+.skill-7 {
+	/*border: 1px solid #000;*/
+	padding: 0 20px;
+	display: grid;
+	place-items: center;
+}
+
+.skill-1 .gambar-1,
+.skill-2 .gambar-2,
+.skill-3 .gambar-3, 
+.skill-4 .gambar-4, 
+.skill-5 .gambar-5,
+.skill-6 .gambar-6,
+.skill-7 .gambar-7 {
+	background-size: cover;
+	height: 100px;
+	width: 100px;
+	/* background-color: red; */
+}
+
+.skill-1 .nama,
+.skill-2 .nama,
+.skill-3 .nama, 
+.skill-4 .nama, 
+.skill-5 .nama,
+.skill-6 .nama,
+.skill-7 .nama {
+	font-size: 30px;
+}
+
+svg[data-icon='vscode-icons:file-type-html'] {
+	/*border: 1px solid #000;*/
+	font-size: 102px;
+}
+
+svg[data-icon='vscode-icons:file-type-css'] {
+	/*border: 1px solid #000;*/
+	font-size: 102px;
+}
+
+svg[data-icon='logos:javascript'] {
+	/*border: 1px solid #000;*/
+	font-size: 98px;
+}
+
+svg[data-icon='logos:figma'] {
+	/*border: 1px solid #000;*/
+	font-size: 100px;
+}
+
+svg[data-icon='vscode-icons:file-type-reactjs'] {
+	/*border: 1px solid #000;*/
+	font-size: 100px;
+}
+
+svg[data-icon='logos:nodejs-icon'] {
+	/*border: 1px solid #000;*/
+	font-size: 100px;
+}
+
+svg[data-icon='vscode-icons:folder-type-mongodb-opened'] {
+	/*border: 1px solid #000;*/
+	font-size: 100px;
+}
+
+/* Projects */
+.row-3 {
+	margin: 0 auto;
+	padding: 80px 0;
+	background-color: #D9F5F9;
+}
+
+.row-3 h2 {
+	text-align: center;
+	margin-bottom: 50px;
+	font-size: 48px;
+}
+
+.projects {
+ 	max-width: 800px;
+ 	margin: 0 auto;
+ 	padding: 2em 0;
+ 	display: flex;
+ 	justify-content:  space-around;
+ 	gap: 3rem;
+}
+
+.projects img,
+.projects img,
+.projects img {
+	max-width: 200px;
+}
+
+.projects .breakout {
+	margin-top: 50px;
+}
+
+/* Container - Row 4 */
+.row-4 {
+	padding: 100px 0;
+	display: grid;
+	place-items: center;
+}
+
+.row-4 h2 {
+	text-align: center;
+	padding-bottom: 50px;
+	font-size: 48px;
+}
+
+form {
+	max-width: 800px;
+}
+
+form .email, form .pesan {
+	font-size: 30px;
+} 
+
+form .emailIn {
+ 	width: 553px;
+ 	height: 45px;
+}
+
+form .btn {
+	max-width: 600px;
+ 	margin: 0 auto;
+ 	padding: 8px 252px;
+ 	font-size: 20px;
+}
+
+/* Container - Row 5 */
+.footer {
+	text-align: center;
+	color: white;
+	background-color: #000;
+	padding: 15px 0;
+}
+
+.footer p {
+	height: 15px;
+}
+
+/* Responsive Part */
+@media only screen and (max-width: 600px){
+	.row-1 .lead {
+		max-width: 400px;
+		margin: 0 auto;
+		margin-top: 35px;
+		text-align: left;
+		font-size: 20px;
+	}
+
+	
+	.skill-1 .nama,
+	.skill-2 .nama,
+	.skill-3 .nama,
+	.skill-4 .nama,
+	.skill-5 .nama,
+	.skill-6 .nama,
+	.skill-7 .nama {
+		margin-bottom: 50px;
+	}
+
+	.skills {
+		padding: 0 20px;
+		display: grid;
+		grid-auto-flow: row;
+	}
+
+	.projects {
+	 	display: grid;
+	 	grid-auto-flow: row;
+	 	max-width: 800px;
+	 	margin: 0 auto;
+	 	padding: 2em 0;
+	}
+
+	form {
+		max-width: 400px;
+		margin: 0 auto;
+	}
+
+	form .emailIn {
+		max-width: 400px;
+	}
+
+	form .btn {
+	 	margin: 0 auto;
+	 	padding: 10px 175px;
+	 	font-size: 20px;
+	 	text-align: left;
+	}
+
+}

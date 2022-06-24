@@ -1,9 +1,9 @@
-import Component from './component/index';
+import Portfolio from './portfolio';
 
 function App() {
   return (
     <div className="App">
-      <Component />
+      <Portfolio/>
     </div>
   );
 }
