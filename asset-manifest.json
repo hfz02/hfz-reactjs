@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/hfz-reactjs/static/css/main.05b29765.css",
+    "main.js": "/hfz-reactjs/static/js/main.671bf076.js",
+    "static/js/787.31c3d48a.chunk.js": "/hfz-reactjs/static/js/787.31c3d48a.chunk.js",
+    "static/media/gambar-1.png": "/hfz-reactjs/static/media/gambar-1.547b88213ad6c92c9cec.png",
+    "static/media/gambar-2.png": "/hfz-reactjs/static/media/gambar-2.4ce9e376189c01cc0ae0.png",
+    "index.html": "/hfz-reactjs/index.html",
+    "main.05b29765.css.map": "/hfz-reactjs/static/css/main.05b29765.css.map",
+    "main.671bf076.js.map": "/hfz-reactjs/static/js/main.671bf076.js.map",
+    "787.31c3d48a.chunk.js.map": "/hfz-reactjs/static/js/787.31c3d48a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.05b29765.css",
+    "static/js/main.671bf076.js"
+  ]
+}
