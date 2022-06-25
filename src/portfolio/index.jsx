@@ -8,6 +8,7 @@ import Footer from "./Footer";
 const Portfolio = () => {
     return ( 
         <div>
+            <div><h2>Ini h2</h2></div>
             <Navbar />
             <Biografi />
             <Skills />
