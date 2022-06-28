@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import firstPict from './images/gambar-1.png'
 import secondPict from './images/gambar-2.png'
 import thirdPict from './images/gambar-3.png'
+import { Icon } from '@iconify/react';
 
 const Projek = () => {
     const width = {
