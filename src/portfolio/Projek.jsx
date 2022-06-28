@@ -14,6 +14,7 @@ const Projek = () => {
         <div>
             <div id="projek" className="row-3">
                 <h2>Projek saya</h2>
+                <Icon icon="mdi:home" style={{ color: '#D9F5F9' }} />
                 <div className="projects">
                     <div className="card" style={ width }>
                         <img src={ firstPict } className="card-img-top" alt="..." />
