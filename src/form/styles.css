@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+* {
+  font-family: 'Quicksand', sans-serif;
+}
+
+body {
+  background: rgb(2, 0, 36);
+  background: radial-gradient(
+    circle,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(30, 54, 59, 1) 0%,
+    rgba(93, 93, 116, 1) 100%
+  );
+}
+  
+.container {
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  max-width: 500px;
+  width: 100%;
+  margin: auto;
+}
+
+h1 {
+  margin-bottom: 50px;
+  margin-top: -9px;
+}
+
+.container > form {
+  border: 1px solid #dfdfdf;
+  padding: 50px;
+  border-radius: 5px;
+  background: #fff;
+}
+
+.field {
+  margin-bottom: 20px;
+}
+
+label {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+pre {
+  width: 70%;
+  color: #fff;
+  font-size: larger;
+}
+
+input {
+  margin-top: 10px;
+  padding: 15px 5px;
+  width: 302px;
+  border-radius: 5px;
+  border: 1px solid #000;
+}
+
+button {
+  font-size: 20px;
+  color: white;
+  background: rgba(93, 93, 116, 1);
+  padding: 15px 122px;
+  margin-top: 40px;
+  border: 2px solid rgba(93, 93, 116, 1);
+  border-radius: 10px;
+}
+
+button:hover {
+  font-size: 20px;
+  color: rgba(93, 93, 116, 1);
+  background: white;
+  padding: 15px 122px;
+  margin-top: 40px;
+  border: 2px solid rgba(93, 93, 116, 1);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+p {
+  color: red;
+  margin: 9px 0;
+}
+
+.success {
+  font-weight: lighter;
+  background: #00ffee;
+  color: #162fe9;
+  padding: 13px 172px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+}

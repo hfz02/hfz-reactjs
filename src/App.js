@@ -1,9 +1,11 @@
-import Portfolio from './portfolio';
+// import Portfolio from './portfolio';
+import Form from './form';
 
 function App() {
   return (
     <div className="App">
-      <Portfolio/>
+      {/* <Portfolio/> */}
+      <Form/>
     </div>
   );
 }
