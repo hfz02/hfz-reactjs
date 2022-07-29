@@ -1,11 +1,9 @@
-// import Portfolio from './portfolio';
-import Form from './form';
+import Routerr from "./router";
 
 function App() {
   return (
     <div className="App">
-      {/* <Portfolio/> */}
-      <Form/>
+      <Routerr />
     </div>
   );
 }
