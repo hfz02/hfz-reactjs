@@ -8,14 +8,14 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 const Routerr = () => {
     return ( 
         <div className='App'>
-            <BrowserRouter>
+            <HashRouter>
                 <Nav />
                 <Routes>
                     <Route exact path='/hfz-reactjs/' element={<Home/>} />
                     <Route path='/hfz-reactjs/about' element={<About/>} />
                     <Route path='/hfz-reactjs/redux' element={<CounterApp/>} />
                 </Routes>
-            </BrowserRouter>
+            </HashRouter>
         </div>
     );
 }
