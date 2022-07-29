@@ -11,9 +11,9 @@ const Routerr = () => {
             <BrowserRouter>
                 <Nav />
                 <Routes>
-                    <Route exact path='/' element={<Home/>} />
-                    <Route path='/about' element={<About/>} />
-                    <Route path='/redux' element={<CounterApp/>} />
+                    <Route exact path='/hfz-reactjs/' element={<Home/>} />
+                    <Route path='/hfz-reactjs/about' element={<About/>} />
+                    <Route path='/hfz-reactjs/redux' element={<CounterApp/>} />
                 </Routes>
             </BrowserRouter>
         </div>
